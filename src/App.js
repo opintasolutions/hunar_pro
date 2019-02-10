@@ -21,16 +21,17 @@ class App extends Component {
       let page2Top = page2.getBoundingClientRect().top
       let page3Top = page3.getBoundingClientRect().top
       let page4Top = page4.getBoundingClientRect().top
-      if(page2Top <= 40 && page2Top >= 0){
+      let scrollConstant = page1.getBoundingClientRect().height * 0.3
+      if(page2Top <= scrollConstant && page2Top >= -200){
         this.setState({ pageNo: 2 }) 
         console.log('coming to page 2', this.state)
-      } else if(page3Top <= 40 && page3Top >= 0){
-        this.setState({ pageNo: 3 }) 
+      } else if(page3Top <= scrollConstant && page3Top >= -200){
+        this.setState({ pageNo: 3 })
         console.log('coming to page 3', this.state)
-      } else if(page4Top <= 40 && page4Top >= 0){
+      } else if(page4Top <= scrollConstant && page4Top >= -200){
         this.setState({ pageNo: 4 })
         console.log('coming to page 4', this.state)
-      } else if(page1Top <= 40 && page1Top >= 0) {
+      } else if(page1Top <= scrollConstant && page1Top >= -200) {
         this.setState({ pageNo: 1 })  
       } 
     }
