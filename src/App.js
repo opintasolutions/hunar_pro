@@ -27,7 +27,8 @@ class App extends Component {
         <Route exact path="/about" component={() => <About />} />
         <Route exact path="/blog" component={() => <Blog />} />
         <Route exact path="/contact" component={() => <Contact />} />
-      </div>
+        <Route exact path="/hunar_pro/" component={() => <div style={{padding: "60px", textAlign: "center"}}>Click <Link to="/">HERE</Link> to begin</div>} />
+       </div>
   </Router>
     )
   }
