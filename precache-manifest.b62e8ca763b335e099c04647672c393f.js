@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/hunar_pro/static/js/runtime~main.8b82f396.js"
   },
   {
-    "revision": "dd2ab7c5aaa22131fc96",
-    "url": "/hunar_pro/static/js/main.dd2ab7c5.chunk.js"
+    "revision": "a5d0df5908d5a50346e5",
+    "url": "/hunar_pro/static/js/main.a5d0df59.chunk.js"
   },
   {
     "revision": "2e1f2111b1eed07ae7a8",
     "url": "/hunar_pro/static/js/1.2e1f2111.chunk.js"
   },
   {
-    "revision": "dd2ab7c5aaa22131fc96",
+    "revision": "a5d0df5908d5a50346e5",
     "url": "/hunar_pro/static/css/main.7775d32a.chunk.css"
   },
   {
-    "revision": "a8111b127c6d3de8183f1adbe3b19849",
+    "revision": "1ebce781ae7f8db8423345421a60f7f5",
     "url": "/hunar_pro/index.html"
   }
 ];
