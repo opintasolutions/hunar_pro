@@ -1,13 +1,13 @@
 {
-  "main.css": "/hunar_pro/static/css/main.e1c7e10e.chunk.css",
-  "main.js": "/hunar_pro/static/js/main.72479aea.chunk.js",
-  "main.js.map": "/hunar_pro/static/js/main.72479aea.chunk.js.map",
-  "static/js/1.a852b0eb.chunk.js": "/hunar_pro/static/js/1.a852b0eb.chunk.js",
-  "static/js/1.a852b0eb.chunk.js.map": "/hunar_pro/static/js/1.a852b0eb.chunk.js.map",
+  "main.css": "/hunar_pro/static/css/main.7775d32a.chunk.css",
+  "main.js": "/hunar_pro/static/js/main.dd2ab7c5.chunk.js",
+  "main.js.map": "/hunar_pro/static/js/main.dd2ab7c5.chunk.js.map",
+  "static/js/1.2e1f2111.chunk.js": "/hunar_pro/static/js/1.2e1f2111.chunk.js",
+  "static/js/1.2e1f2111.chunk.js.map": "/hunar_pro/static/js/1.2e1f2111.chunk.js.map",
   "runtime~main.js": "/hunar_pro/static/js/runtime~main.8b82f396.js",
   "runtime~main.js.map": "/hunar_pro/static/js/runtime~main.8b82f396.js.map",
-  "static/css/main.e1c7e10e.chunk.css.map": "/hunar_pro/static/css/main.e1c7e10e.chunk.css.map",
+  "static/css/main.7775d32a.chunk.css.map": "/hunar_pro/static/css/main.7775d32a.chunk.css.map",
   "index.html": "/hunar_pro/index.html",
-  "precache-manifest.ef12fed6809906c2962128f2dd68a841.js": "/hunar_pro/precache-manifest.ef12fed6809906c2962128f2dd68a841.js",
+  "precache-manifest.353d3bc1d2064447d9208cdfe1c6b5ad.js": "/hunar_pro/precache-manifest.353d3bc1d2064447d9208cdfe1c6b5ad.js",
   "service-worker.js": "/hunar_pro/service-worker.js"
 }
