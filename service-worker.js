@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hunar_pro/precache-manifest.b62e8ca763b335e099c04647672c393f.js"
+  "/hunar_pro/precache-manifest.58536979a41ea855439ddc42dfa041ff.js"
 );
 
 workbox.clientsClaim();
