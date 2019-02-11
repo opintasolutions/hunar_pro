@@ -35,13 +35,13 @@ class App extends Component {
         this.setState({ pageNo: 1 })  
       } 
     }
-  }
+  } 
   
   render() {
     return (
       <div className="App">
-        <div class="page-card" id="page-1">
-          <div class="page-desc">
+        <div className="page-card" id="page-1">
+          <div className="page-desc">
              <h1>Page 1</h1> 
             <h4>Description</h4>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
@@ -51,12 +51,12 @@ class App extends Component {
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
-            <button class="home-read-more">Read More</button>
+            <button className="home-read-more">Read More</button>
      </div>
-          <div class="page-pic"></div>
+          <div className="page-pic"></div>
         </div> 
-      <div class="page-card" id="page-2">
-        <div class="page-desc">
+      <div className="page-card" id="page-2">
+        <div className="page-desc">
               <h1>Page 2</h1> 
             <h4>Description</h4>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
@@ -66,12 +66,12 @@ class App extends Component {
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
-            <button class="home-read-more">Read More</button>
+            <button className="home-read-more">Read More</button>
       </div>
-          <div class="page-pic"></div>
+          <div className="page-pic"></div>
         </div> 
-      <div class="page-card" id="page-3">
-        <div class="page-desc">
+      <div className="page-card" id="page-3">
+        <div className="page-desc">
             <h1>Page 3</h1> 
             <h4>Description</h4>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
@@ -81,12 +81,12 @@ class App extends Component {
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
-            <button class="home-read-more">Read More</button>
+            <button className="home-read-more">Read More</button>
       </div>
-          <div class="page-pic"></div>
+          <div className="page-pic"></div>
         </div>
-      <div class="page-card" id="page-4">
-        <div class="page-desc">
+      <div className="page-card" id="page-4">
+        <div className="page-desc">
              <h1>Page 4</h1> 
             <h4>Description</h4>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
@@ -96,19 +96,15 @@ class App extends Component {
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
             <p>lorem ipsum dolor sit ammet lorem ipsum dolor sit ammet</p>
-            <button class="home-read-more">Read More</button>
+            <button className="home-read-more">Read More</button>
       </div>
-          <div class="page-pic"></div>
+          <div className="page-pic"></div>
         </div>
-      <div class="page-nos-indicator">
-        {this.state.pageNo === 1 ? <div class="highlighter-circle fill"></div> : <div class="highlighter-circle"></div>}
-        {this.state.pageNo === 2 ? <div class="highlighter-circle fill"></div> : <div class="highlighter-circle"></div>}
-        {this.state.pageNo === 3 ? <div class="highlighter-circle fill"></div> : <div class="highlighter-circle"></div>}
-        {this.state.pageNo === 4 ? <div class="highlighter-circle fill"></div> : <div class="highlighter-circle"></div>}
-        { /* <div class="highlighter-circle">{ this.state.pageNo === 1 ? <div class="fill"></div> : null}</div>
-        <div class="highlighter-circle">{ this.state.pageNo === 2 ? <div class="fill"></div> : null}</div>
-        <div class="highlighter-circle">{ this.state.pageNo === 3 ? <div class="fill"></div> : null}</div>
-        <div class="highlighter-circle">{ this.state.pageNo === 4 ? <div class="fill"></div> : null}</div>*/}
+      <div className="page-nos-indicator">
+        <a href="#page-1"><div id="page1-ind" className={this.state.pageNo === 1 ? "page-pos-box fill-box" : "page-pos-box"}><div className="page-no-txt">Page 1</div><div className={this.state.pageNo === 1 ? "highlighter-circle fill" : "highlighter-circle"}></div></div> </a>
+        <a href="#page-2"><div id="page2-ind" className={this.state.pageNo === 2 ? "page-pos-box fill-box" : "page-pos-box"}><div className="page-no-txt">Page 2</div><div className={this.state.pageNo === 2 ? "highlighter-circle fill" : "highlighter-circle"}></div></div> </a>
+        <a href="#page-3"><div id="page3-ind" className={this.state.pageNo === 3 ? "page-pos-box fill-box" : "page-pos-box"}><div className="page-no-txt">Page 3</div><div className={this.state.pageNo === 3 ? "highlighter-circle fill" : "highlighter-circle"}></div></div> </a>
+        <a href="#page-4"><div id="page4-ind" className={this.state.pageNo === 4 ? "page-pos-box fill-box" : "page-pos-box"}><div className="page-no-txt">Page 4</div><div className={this.state.pageNo === 4 ? "highlighter-circle fill" : "highlighter-circle"}></div></div> </a>
       </div>
       </div>
     );
